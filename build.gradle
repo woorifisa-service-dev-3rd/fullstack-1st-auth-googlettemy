@@ -25,7 +25,7 @@ dependencies {
 	testImplementation 'org.springframework.security:spring-security-test'
 	testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
 	implementation 'commons-codec:commons-codec:1.15'
-	implementation 'org.projectlombok:lombok'
+	implementation 'com.journeyapps:zxing-android-embedded:3.5.0'
 }
 
 tasks.named('test') {

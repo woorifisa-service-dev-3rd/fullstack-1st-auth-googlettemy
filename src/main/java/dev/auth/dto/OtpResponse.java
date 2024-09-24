@@ -1,8 +1,5 @@
 package dev.auth.dto;
 
-import lombok.Getter;
-
-@Getter
 public class OtpResponse {
     private String encodedKey;
     private String url;
@@ -10,5 +7,13 @@ public class OtpResponse {
     public OtpResponse(String encodedKey, String url) {
         this.encodedKey = encodedKey;
         this.url = url;
+    }
+
+    public String getEncodedKey() {
+        return encodedKey;
+    }
+
+    public String getUrl() {
+        return url;
     }
 }
