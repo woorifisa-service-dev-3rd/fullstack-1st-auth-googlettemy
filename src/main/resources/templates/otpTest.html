@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>OTP Test</title>
+</head>
+<body>
+<h1>OTP 생성 결과</h1>
+<p>Encoded Key: <span th:text="${encodedKey}"></span></p>
+<p>QR 코드 URL: <a th:href="${url}">QR 코드 생성하기</a></p>
+</body>
+</html>
